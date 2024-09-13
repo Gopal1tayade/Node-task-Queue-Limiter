@@ -26,7 +26,7 @@ This project implements a Node.js application for task queuing with rate limitin
 
 ## Running the Application
  * Start the application:
-   To start the application with clustering, run: npm start
+   To start the application with clustering, run: npm start ##
    This command will start the application on multiple CPU cores as defined in src/cluster.js.
 * Verify the server is running:
   Open your browser and navigate to:  http://localhost:6500
