@@ -43,7 +43,7 @@ Submits a task to the queue.
 }
 * Responses:
   * 200 OK - Task added to queue
- * 429 Too Many Requests - Rate limit exceeded
+  * 429 Too Many Requests - Rate limit exceeded
 ## Testing
 * Submit a task:
          You can use tools like Postman  For example:
