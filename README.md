@@ -1,4 +1,4 @@
- ***** ## Task Queue and Rate Limiting *****
+  ### Task Queue and Rate Limiting 
 ## Description
 This project implements a Node.js application for task queuing with rate limiting. It uses Bull for task queuing, Redis for storing queue data, Express for routing, and rate-limiter-flexible for rate limiting. The application is designed to handle user tasks with rate limiting to ensure efficient processing.
 
