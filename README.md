@@ -34,7 +34,7 @@ This project implements a Node.js application for task queuing with rate limitin
 
 
 ## API Endpoints
-# POST /task
+### POST /task
 Submits a task to the queue.
  * Request body:
 {
