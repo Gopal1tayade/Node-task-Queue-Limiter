@@ -46,7 +46,7 @@ Submits a task to the queue.
   * 429 Too Many Requests - Rate limit exceeded
 ## Testing
 * Submit a task:
-         You can use tools like Postman  For example:
+         You can use tools like Postman  
 * Check task logs:
            The task completion logs are written to task-log.txt. Check this file to see
             the log entries for completed tasks.
