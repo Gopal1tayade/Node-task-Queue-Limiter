@@ -11,8 +11,8 @@ This project implements a Node.js application for task queuing with rate limitin
   * src/utils/rateLimiter.js: Manages rate limiting for task submissions.
   * task-log.txt: Log file for task completion records.
 ## Prerequisites
-*Node.js (version 14.x or later)
-*Redis server (version 6.x or later)
+* Node.js (version 14.x or later)
+* Redis server (version 6.x or later)
 
 ## Installation
 # Clone the repository:    
