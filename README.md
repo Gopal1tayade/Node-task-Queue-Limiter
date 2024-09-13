@@ -2,7 +2,7 @@
 ## Description
 This project implements a Node.js application for task queuing with rate limiting. It uses Bull for task queuing, Redis for storing queue data, Express for routing, and rate-limiter-flexible for rate limiting. The application is designed to handle user tasks with rate limiting to ensure efficient processing.
 
-# Project Structure
+## Project Structure
   * src/app.js: Main Express application.
   * src/cluster.js: Initializes a cluster of Node.js processes for handling multiple CPU cores.
   * src/queue/taskQueue.js: Defines and processes the task queue using Bull.
