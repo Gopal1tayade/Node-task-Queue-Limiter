@@ -34,20 +34,20 @@ This project implements a Node.js application for task queuing with rate limitin
 
 
 ## API Endpoints
-* POST /task
+# POST /task
 Submits a task to the queue.
- Request body:
+ * Request body:
 {
 "userId": "string", 
 "taskData": "string"
 }
-       Responses:
+* Responses:
 200 OK - Task added to queue
 429 Too Many Requests - Rate limit exceeded
-Testing
-Submit a task:
+## Testing
+* Submit a task:
          You can use tools like Postman  For example:
-Check task logs:
+* Check task logs:
            The task completion logs are written to task-log.txt. Check this file to see
             the log entries for completed tasks.
 ## Troubleshooting
